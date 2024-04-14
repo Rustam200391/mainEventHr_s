@@ -8,21 +8,21 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-application architecture:
-src/
-|-- components/
-|   |-- Header.js
-|   |-- LoginForm.js
-|   |-- RegisterForm.js
-|   |-- EventList.js
-|   |-- EventItem.js
-|   |-- EventForm.js
-|-- pages/
-|   |-- HomePage.js
-|   |-- LoginPage.js
-|   |-- RegisterPage.js
-|   |-- DashboardPage.js
-|-- api/
-|   |-- api.js
-|-- App.js
-|-- index.js
+<p>application architecture:</p>
+<p>src/</p>
+<p>|-- components/</p>
+<p>|   |-- Header.js</p>
+<p>|   |-- LoginForm.js</p>
+<p>|   |-- RegisterForm.js</p>
+<p>|   |-- EventList.js</p>
+<p>|   |-- EventItem.js</p>
+<p>|   |-- EventForm.js</p>
+<p>|-- pages/</p>
+<p>|   |-- HomePage.js</p>
+<p>|   |-- LoginPage.js</p>
+<p>|   |-- RegisterPage.js</p>
+<p>|   |-- DashboardPage.js</p>
+<p>|-- api/</p>
+<p>|   |-- api.js</p>
+<p>|-- App.js</p>
+<p>|-- index.js</p>

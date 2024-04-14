@@ -7,10 +7,12 @@ function LoginPage() {
   };
 
   return (
-    <div>
-      <h2>Вход</h2>
-      <LoginForm onLogin={handleLogin} />
-    </div>
+    <>
+      <div>
+        <h2>Вход</h2>
+        <LoginForm onLogin={handleLogin} />
+      </div>
+    </>
   );
 }
 

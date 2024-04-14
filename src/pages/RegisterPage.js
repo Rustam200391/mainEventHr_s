@@ -7,10 +7,12 @@ function RegisterPage() {
   };
 
   return (
-    <div>
-      <h2>Регистрация</h2>
-      <RegisterForm onRegister={handleRegister} />
-    </div>
+    <>
+      <div>
+        <h2>Регистрация</h2>
+        <RegisterForm onRegister={handleRegister} />
+      </div>
+    </>
   );
 }
 

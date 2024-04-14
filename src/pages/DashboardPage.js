@@ -10,11 +10,13 @@ function DashboardPage() {
   const events = []; // Получение списка мероприятий
 
   return (
-    <div>
-      <h2>Панель управления</h2>
-      <EventForm onSubmit={handleSubmitEvent} />
-      <EventList events={events} />
-    </div>
+    <>
+      <div>
+        <h2>Панель управления</h2>
+        <EventForm onSubmit={handleSubmitEvent} />
+        <EventList events={events} />
+      </div>
+    </>
   );
 }
 

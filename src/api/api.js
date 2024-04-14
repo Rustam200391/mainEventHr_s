@@ -1,7 +1,10 @@
-import React from "react";
+import axios from "axios";
 
-const api = () => {
-  return <div>api</div>;
-};
+const api = axios.create({
+  baseURL: "http://localhost:3001/api",
+});
 
-export default api;
+export const loginUser = (userData) => api.post("/login", userData);
+export const registerUser = (userData) => api.post("/register", userData);
+export const createEvent = (eventData) => api.post("/events", eventData);
+export const getEvents = () => api.get("/events");

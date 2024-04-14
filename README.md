@@ -6,3 +6,21 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+src/
+|-- components/
+|   |-- Header.js
+|   |-- LoginForm.js
+|   |-- RegisterForm.js
+|   |-- EventList.js
+|   |-- EventItem.js
+|   |-- EventForm.js
+|-- pages/
+|   |-- HomePage.js
+|   |-- LoginPage.js
+|   |-- RegisterPage.js
+|   |-- DashboardPage.js
+|-- api/
+|   |-- api.js
+|-- App.js
+|-- index.js

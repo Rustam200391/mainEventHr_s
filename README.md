@@ -1,4 +1,4 @@
-#This application is a basic prototype for tracking and managing events organized by HR managers. Users can register, log in and create events with their details. In the future, this application can be expanded by adding more functionality, such as notifications, filters for events, as well as improving the design and user <i>interface.
+#This application is a basic prototype for tracking and managing events organized by HR managers. Users can register, log in and create events with their details. In the future, this application can be expanded by adding more functionality, such as notifications, filters for events, as well as improving the design and user <iinterface.
 ##React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
